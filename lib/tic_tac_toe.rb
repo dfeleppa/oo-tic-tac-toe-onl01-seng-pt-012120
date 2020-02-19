@@ -120,7 +120,7 @@ class TicTacToe
       turn
     end
     if won?
-      puts "Congratulations #{winner}"
+      puts "Congratulations #{winner}!"
     #if won? && winner == "X"
      # puts "Congratulations X!"
     #elsif won? && winner == "O"
