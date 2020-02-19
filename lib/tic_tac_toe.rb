@@ -116,8 +116,10 @@ class TicTacToe
   end
   
   def play
+    turn = 0
+    
     until over?
-      turn
+      turn += 1
     end
     if won? && winner == "X"
       puts "Congratulations X!"
